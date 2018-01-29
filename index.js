@@ -9,7 +9,7 @@ const LEFT_ARROW = 37 // use e.which!
 const RIGHT_ARROW = 39 // use e.which!
 const ROCKS = []
 const START = document.getElementById('start')
-
+var k = 0;
 var gameInterval = null
 
 /**
